@@ -1,4 +1,4 @@
-# Text link fixer
+# Inactive SKU
 
 App in VTEX that receives a notification when a SKU is changed or created, if the Sku doesnt have Image this in going to be inactive
 
