@@ -1,0 +1,25 @@
+{
+  "name": "text-link-fixer",
+  "vendor": "vtex",
+  "version": "0.0.1",
+  "title": "Text Link Fixer",
+  "description": "Parser when a text-link in a product contains spaces.",
+  "dependencies": {},
+  "builders": {
+    "node": "6.x",
+    "docs": "0.x"
+  },
+  "credentialType": "absolute",
+  "policies": [
+    {
+      "name": "colossus-fire-event"
+    },
+    {
+      "name": "colossus-write-logs"
+    },
+    {
+      "name": "vbase-read-write"
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
